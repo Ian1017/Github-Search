@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfileService } from "../profile.service";
-import { Users } from "../users";
+import { ProfileService } from '../profile.service';
+import { Users } from '../users';
 
 @Component({
   selector: 'app-display',
@@ -27,4 +27,4 @@ export class DisplayComponent implements OnInit {
   ngOnInit() {
 
   }
-};
+}
