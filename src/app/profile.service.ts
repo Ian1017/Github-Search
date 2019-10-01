@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../environments/environment';
-import { Repo } from './repo';
 import { Users } from './user';
-
+import { Repo } from './repo';
 
 
 
@@ -38,7 +37,7 @@ export class ProfileService {
 
     const promise = new Promise((resolve, reject) => {
       // tslint:disable-next-line: max-line-length
-      this.http.get<ApiResponse>(`https://api.github.com/users/${this.username}?access_token=` + '3d805bf6761c1dafe17d3617f1968c94009181a2').toPromise().then(response => {
+      this.http.get<ApiResponse>(`https://api.github.com/users/${this.username}?access_token=` + '3338974be4fced933029ac557f43befe7ed5c82c').toPromise().then(response => {
         this.users.login = response.login;
         this.users.html_url = response.html_url;
         this.users.name = response.name;

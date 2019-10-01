@@ -27,5 +27,4 @@ export class DisplayComponent implements OnInit {
   ngOnInit() {
 
   }
-// tslint:disable-next-line: semicolon
-};
+}
