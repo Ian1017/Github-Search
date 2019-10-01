@@ -2,8 +2,8 @@
 <div class="col-md-3"></div>
 <div class="col-md-9"> <form class="form-inline text-center #myForm='ngForm' myForm.reset()">
   <div class="md-form my-4">
-    <input class="form-control mr-md-7" type="text" placeholder="Search here.." ='username' name='username'
-        (keyup)='getProfile()' aria-label="Search">
+    <input class="form-control mr-md-7" type="text" placeholder="Search here.."  name='username'
+    (keyup)='getProfile()' aria-label="Search">
     </div>
 </form>
 </div>
@@ -43,31 +43,31 @@
                     <ul class="list-group">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Login Name
-                            <span class="badge stylish-color badge-pill">{{users?.login}}</span>
+                            <span class="badge stylish-color badge-pill">{{users.login}}</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Followers
-                            <span class="badge stylish-color badge-pill">{{users?.followers}}</span>
+                            <span class="badge stylish-color badge-pill">{{users.followers}}</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Following
-                            <span class="badge stylish-color badge-pill">{{users?.following}}</span>
+                            <span class="badge stylish-color badge-pill">{{users.following}}</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Public Repositories
-                            <span class="badge stylish-color badge-pill">{{users?.public_repos}}</span>
+                            <span class="badge stylish-color badge-pill">{{users.public_repos}}</span>
                         </li>
         
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Public Gists
-                            <span class="badge stylish-color badge-pill">{{users?.public_gists}}</span>
+                            <span class="badge stylish-color badge-pill">{{users.public_gists}}</span>
                         </li>
                     </ul>
                     <p class="text-small text-muted mb-0 pt-3">* You can decide to check it out on Git GitHub </p>
                 </div>
             </div>
         
-            <a href={{users?.html_url}} target='_blank' class="btn btn-outline-white btn-md waves-effect"
+            <a href={{users.html_url}} target='_blank' class="btn btn-outline-white btn-md waves-effect"
                 class="btn btn-primary">Check On GitHub</a>
         </div>
         

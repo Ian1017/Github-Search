@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
+
+## Description
+It's a web application that allows one to search for a Github user and it directs you to his Github Account.
+
+## Author
+Ian Mdawida
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
